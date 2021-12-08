@@ -1,17 +1,24 @@
-body {
-	background: #CCCCCC
-}
+
 
 #banner {
 	width: 100%;
 }
 
 h1 {
-	text-align: center
+	text-align: center;
+	
 }
 
 p {
 	text-align: center;
+	
+}
+
+.principal {
+	background: #CCCCCC;
+
+
+
 }
 
 #missao {
@@ -25,20 +32,24 @@ em strong {
 h2 {
 	text-align: center;
 	font-size: 30px;
-
+	background: #CCCCCC
+	
 
 }
 
 .itens {
-	color: red;
+	color: #000000
 
 
 }
 
+.beneficios {
+	
+	background: #CCCCCC;
+}
+
 #beneficios {
 	width: 100%;
-
-
 
 
 }
