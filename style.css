@@ -16,6 +16,7 @@ p {
 
 .principal {
 	background: #CCCCCC;
+	padding: 30px;
 
 
 
@@ -39,13 +40,29 @@ h2 {
 
 .itens {
 	color: #000000
+	
 
 
+}
+.beneficios {
+	padding: 20px;
 }
 
 
 #beneficios {
 	width: 100%;
+	
 
 
+}
+.imagembeneficio {
+	width: 50%;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+	
 }
