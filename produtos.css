@@ -1,6 +1,34 @@
 header {
         background: #CCCCCC;
+        padding: 20px 0;
 
 
 
     }
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline; /* Deixar lado a lado o texto */
+    margin: 0 0 0 15px; /* espaçamento */
+    
+}
+
+nav a {
+    text-transform: uppercase; /* para transformar para letras MAIUSCULAS */
+    color: #000000;
+    font-weight: bold; /* deixar em negrito */
+    font-size: 22px;
+    text-decoration: none; /* sem nenhuma decoração no texto */
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+
+
+}
