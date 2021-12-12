@@ -25,6 +25,13 @@ nav a {
     text-decoration: none; /* sem nenhuma decoração no texto */
 }
 
+nav a:hover{
+    color: #c78c19; /* Aplicar cor nos botões de direcionamentos de outras páginas */
+    text-decoration: underline; /* ficar sublinhado */
+
+
+}
+
 nav {
     position: absolute;
     top: 110px;
@@ -38,9 +45,27 @@ nav {
     width: 30%; /* Largura */
     vertical-align: top;
     margin: 0 1.5%; /* Espaçamento externo */
-    padding: 20px 30px;
+    padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px; /* arredondar as bordas */
+    
+    
+    
 
+}
+
+.produtos li :hover {
+    color: #c78c19;
+    font-size: 40px;
+    border-color: blue;
+    
+}
+.produtos li :active {
+    border-color: indigo;
+}
+.produtos li :hover h2 {
+    font-size: 10px;
 }
 
 .produtos {
@@ -62,6 +87,21 @@ nav {
 
 .produto-descricao {
     font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
+    
+
 }
 
 
