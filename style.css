@@ -1,67 +1,131 @@
+header {
+        background: #CCCCCC;
+        padding: 20px 0;
 
 
-#banner {
-	width: 100%;
+
+    }
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
-.titulo-principal {
-	padding-left: 20px;
-	
-
-
+nav li {
+    display: inline; /* Deixar lado a lado o texto */
+    margin: 0 0 0 15px; /* espaçamento */
+    
 }
 
-p {
-	text-align: center;
-	
+nav a {
+    text-transform: uppercase; /* para transformar para letras MAIUSCULAS */
+    color: #000000;
+    font-weight: bold; /* deixar em negrito */
+    font-size: 22px;
+    text-decoration: none; /* sem nenhuma decoração no texto */
 }
 
-.principal {
-	background: #CCCCCC;
-	padding: 30px;
-
-
-
-}
-
-#missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #FF0000;
-}
-
-
-.itens {
-	color: #000000
-	
+nav a:hover{
+    color: #c78c19; /* Aplicar cor nos botões de direcionamentos de outras páginas */
+    text-decoration: underline; /* ficar sublinhado */
 
 
 }
-.beneficios {
-	padding: 20px;
-}
 
-
-#beneficios {
-	width: 100%;
-	
+nav {
+    position: absolute;
+    top: 110px;
+    right: 20px;
 
 
 }
-.imagembeneficio {
-	width: 50%;
-}
-.titulo-centralizado {
-	text-align: center;
+.produtos li {
+    display: inline-block; /* deixar um do lado do outro */
+    text-align: center;
+    width: 30%; /* Largura */
+    vertical-align: top;
+    margin: 0 1.5%; /* Espaçamento externo */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px; /* arredondar as bordas */
+    
+    
+    
 
 }
 
-ul {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-	
+.produtos li :hover {
+    color: #c78c19;
+    font-size: 40px;
+    border-color: blue;
+    
 }
+.produtos li :active {
+    border-color: indigo;
+}
+.produtos li :hover h2 {
+    font-size: 10px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0; /* Espaçamento interno */
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold; /* negrito */
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+
+    color: white;
+    font-size: 13px;
+    margin: 20px 0;
+    
+
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;   
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 10px;
+
+}
+form input {
+    display: block;
+    margin: 0 0 20px;
+}
+
+
+
+
+
+ 
