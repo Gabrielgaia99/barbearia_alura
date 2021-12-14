@@ -113,16 +113,25 @@ form {
     margin: 40px 0;   
 }
 
-form label {
+form label, form p {
     display: block;
     font-size: 20px;
     margin: 0 10px;
 
 }
-form input {
+.input-padrao {
     display: block;
     margin: 0 0 20px;
+    padding: 10px 25px; /* 10px equivalente pra cima/baixo e 25px para os lados, A propriedade padding serve para alterarmos o espaçamento interno, entre o conteúdo e a borda. */
+    width: 50%; /* largura */
 }
+
+.checkbox {
+    margin: 20px;
+
+
+}
+
 
 
 
