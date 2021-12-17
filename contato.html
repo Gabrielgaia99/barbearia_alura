@@ -40,45 +40,97 @@
 
         <form action=""> <!--A criar um formulário HTML, A tag que o representa é a <form>-->
             <label for="nomesobrenome">Nome e sobrenome</label> <!--A tag <label> é uma etiqueta para a entrada de dados, para o <input>.-->
-            <input type="text" id="nomesobrenome" class="input-padrao">
+            <input type="nomesobrenome" id="nomesobrenome" class="input-padrao required">
             <label for="Email">Email</label>
-            <input type="text" id="Email" class="input-padrao">
+            <input type="Email" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com"> <!--para tornar obrigatório preenchimentos de dados-->
             <label for="Telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) (XXXXX-XXXX)"> <!--Placeholder para mostrar o que é preciso para preencher devidos dados, Email, Telefone, CPF, E etc...-->
             <label for="Mensagem">Mensagem</label>
-            <textarea name="" id="Mensagem" cols="70" rows="10"></textarea>
+            <textarea name="" id="Mensagem" cols="70" rows="10"></textarea required>
+
            
             
-            <div>
-                <p class="teste" id="teste">Como prefere o nosso contato?</p>
+            <fieldset>
+                <legend class="teste" id="teste">Como prefere o nosso contato?</p>
                 <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                 
                 <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
                 
-                <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp">Whatsapp</label>
-            </div>
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+                <!--Ser a primeira opção de marcação-->
+            </fieldset>
 
-         <p>Qual horário prefere ser atendido</p>
 
 
-                <select>
-                    
+            <fieldset>
+                <legend>Qual horário prefere ser atendido</p>
 
+                <select> <!--O select, que é seletor, um campo de seleção de um item, e o option, que representa cada opção do seletor-->
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
                 </select>
+    
 
-                    
 
+            </fieldset>
+        
 
-           <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
             
 
-            <input type="submit" value="Enviar Formulário">
+                    
 
 
+           <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+            
 
-
+            <input type="submit" value="Enviar Formulário" class="enviar">
 
         </form>
+
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    <tr>    
+                        <td>Segunda</td>
+                        <td>8hrs ~ 20hrs</td>
+                    </tr>
+                        <td>Quarta</td>
+                        <td>8hrs ~ 20 hrs</td>
+    
+    
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8hrs ~ 20hrs</td>
+    
+    
+                    </tr>
+
+
+
+
+
+
+                </tbody>
+                
+               
+
+
+
+
+
+
+
+            </table>
 
        
 
