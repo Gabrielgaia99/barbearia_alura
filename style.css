@@ -14,6 +14,7 @@ header {
 nav li {
     display: inline; /* Deixar lado a lado o texto */
     margin: 0 0 0 15px; /* espaçamento */
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -183,9 +184,39 @@ td, th {
 .titulo-principal {
     text-align: center;
     font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 
 }
 
+.principal p {
+    margin: 0 0 1em;
+
+}
+
+.principal strong {
+    font-weight: bold;
+    
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagembeneficio {
+    width: 100%;
+    
+
+}
+
+.utensilios {
+    width: 150px;
+    float: left; /* Alternativa correta! Tanto o float:left quanto o float: right servem para que o elemento se destaque na tela, deixe de ocupar o espaço em que estava, para que os outros elementos possam se posicionar ao redor dele */
+    margin: 0 20px 20px 0; /* Em cima, direita, baixo, esquerdo */
+
+    
+    
+}
 
 
 
