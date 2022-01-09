@@ -323,7 +323,7 @@ td, th {
 }
 
 
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
         width: auto;
     }
@@ -331,10 +331,15 @@ td, th {
         text-align: center;
     }
     nav {
-        position: absolute;
+        position: static;
     }
 }
-*/
+
+.lista-beneficios, .imagembeneficio {
+    width: 100%;
+
+}
+
 
 
 
